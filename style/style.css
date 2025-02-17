@@ -1,0 +1,69 @@
+.grid{
+  display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.xobut{
+  padding: 60px 50px;
+  border-radius: 5px;
+}
+
+.start{
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+  border-color: #0985;
+  background-color: #0987;
+}
+
+.started{
+  border-color: #0003;
+  background-color: #fffd;
+}
+
+.restart{
+  border-color: #0003;
+  background-color: red;
+}
+
+.blue-button {
+    display: inline-block;
+    padding: 40px;
+    background-color: #007bff; 
+    color: #ffffff; 
+    font-size: 46px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.blue-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.red-button {
+    display: inline-block;
+    padding: 40px;
+    background-color: #ff0000; 
+    color: #ffffff; 
+    font-size: 46px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.red-button:hover {
+    background-color: #d60000; /* Darker red on hover */
+}
